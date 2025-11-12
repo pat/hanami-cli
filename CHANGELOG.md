@@ -4,7 +4,7 @@ Hanami Command Line Interface
 
 ## Unreleased
 
-## v2.3.0
+## v2.3.0 - 2025-11-12
 
 ### Added
 
@@ -19,7 +19,8 @@ Hanami Command Line Interface
 - Add `--boot` flag to `console` command, which boots the Hanami app before loading the console. (@kyleplump in #331)
 - In new apps, require dry-operation v1.0.1 in the generated `Gemfile`. This is necessary to pull in a fix required for Hanami’s automatic integration of Dry Operation with the database layer. (@timriley in #351)
 - When generating new apps with `--head`, use the new GitHub repo names in the `Gemfile` (`"hanami/hanami-view"` instead of `"hanami/view"`). (@afomera in #354)
-- When generating new apps with `--head`, add `"hanami-utils"` to the `Gemfile` (@timriley in #362)
+- When generating new apps with `--head`, add `"hanami-utils"` to the `Gemfile`. (@timriley in #362)
+- In new apps, include a patch-level version (e.g. "~> 2.3.0") for Hanami gems in generated `Gemfile`, ensuring updates to the next minor version are only done intentionally. (@timriley in #367)
 
 ### Fixed
 
