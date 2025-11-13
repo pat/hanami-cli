@@ -138,7 +138,7 @@ RSpec.describe Hanami::CLI::Commands::Gem::New do
 
         ## Getting started
 
-        - Set up the project up with `bin/setup`
+        - Set up the project with `bin/setup`
         - Run the server with `bin/dev`
         - View the app at [http://localhost:2300](http://localhost:2300)
         - Run the tests with `bundle exec rake`
@@ -706,7 +706,7 @@ RSpec.describe Hanami::CLI::Commands::Gem::New do
 
           ## Getting started
 
-          - Set up the project up with `bin/setup`
+          - Set up the project with `bin/setup`
           - Run the server with `bin/dev`
           - View the app at [http://localhost:2300](http://localhost:2300)
           - Run the tests with `bundle exec rake`
@@ -1365,7 +1365,7 @@ RSpec.describe Hanami::CLI::Commands::Gem::New do
 
         ## Getting started
 
-        - Set up the project up with `bin/setup`
+        - Set up the project with `bin/setup`
         - Run the server with `bin/dev`
         - View the app at [http://localhost:2300](http://localhost:2300)
         - Run the tests with `bundle exec rake`
